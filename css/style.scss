@@ -1,0 +1,55 @@
+html, body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colors */
+$green: #00ee33;
+$red: #ff0000;
+$gray: #777777;
+
+
+h1 {
+    color: $red;
+}
+
+
+.big-title {
+    font-size: 3em;
+}
+
+
+.green {
+    color: $green;
+}
+
+.gray {
+    color: $gray;
+}
+
+.main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.uno {
+    width: 100%;
+}
+
+.dos {
+    // width: 30%;
+    flex: 0 0 30%;
+}
+
+.tres {
+    // width: 70%;
+    flex:1;
+}
+
+.medium-title {
+    font-size: 1.6em;
+}
+
+.inline {
+    display: flex;
+}
