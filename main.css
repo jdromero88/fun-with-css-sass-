@@ -3,6 +3,10 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  width: 100%;
+}
+
 /* Colors */
 h1 {
   color: #ff0000;
@@ -43,6 +47,30 @@ h1 {
 
 .inline {
   display: flex;
+}
+
+/* menu */
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 0 0.5em;
+}
+
+nav li:hover {
+  background-color: #00ee33;
+  border-radius: 2em;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.8em;
 }
 
 /*# sourceMappingURL=main.css.map */
