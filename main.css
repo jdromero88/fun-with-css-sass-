@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 html, body {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +21,7 @@ h1 {
 }
 
 .green {
-  color: #00ee33;
+  color: #00801c;
 }
 
 .gray {
@@ -52,6 +56,8 @@ h1 {
 /* menu */
 nav {
   width: 100%;
+  background-color: #00801c;
+  padding: 0.3em;
 }
 
 nav ul {
@@ -60,17 +66,19 @@ nav ul {
 
 nav li {
   margin: 0 0.5em;
+  padding: 0 0.75em;
 }
 
 nav li:hover {
-  background-color: #00ee33;
-  border-radius: 2em;
+  background-color: #00ee33cc;
+  border-radius: 0.35em;
 }
 
 nav li a {
   text-decoration: none;
   text-transform: capitalize;
   font-size: 1.8em;
+  color: #f3f3f3;
 }
 
 /*# sourceMappingURL=main.css.map */
