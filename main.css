@@ -39,10 +39,14 @@ h1 {
 
 .dos {
   flex: 0 0 30%;
+  background-color: indianred;
+  padding: 1.5em;
 }
 
 .tres {
   flex: 1;
+  background-color: khaki;
+  padding: 1em 1.5em;
 }
 
 .medium-title {
@@ -51,6 +55,14 @@ h1 {
 
 .inline {
   display: flex;
+}
+
+.align-left {
+  justify-content: flex-start;
+}
+
+.align-right {
+  justify-content: flex-end;
 }
 
 /* menu */
@@ -62,6 +74,7 @@ nav {
 
 nav ul {
   list-style: none;
+  width: 50%;
 }
 
 nav li {
